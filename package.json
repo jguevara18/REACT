@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jguevara18.github.io/react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
