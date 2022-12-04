@@ -1,0 +1,125 @@
+nav{
+  display:flex;
+    
+}
+a{
+  text-decoration:none;
+  color:inherit;
+  font-size:20px;
+  width:24%;
+  padding:5px 10px;
+  background-color:#000;
+  border:1px solid #000;
+  color:#fff;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+
+
+
+}
+
+a:hover{
+  color: #8CD2C1;
+
+}
+body{
+  background-color: #D8DDEF;
+}
+h1 {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+ 
+}
+
+p {
+  font-size: 20px;
+}
+
+.activado {
+  background-color: #7293A0;
+  color:#65C3AD;
+}
+
+img {
+  display:block;
+  margin: auto;
+  border: 5px solid black;
+  width: 300px;
+  height: 300px;
+}
+
+img:hover{
+  background-color: #646cff;
+}
+
+
+
+
+.formulario, .form{
+  display: flex;
+  font-size: medium;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8CD2C1;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: black 0px 1px 4px;
+  min-height: 20rem;
+
+
+}
+
+.formulario div{
+  margin-bottom: 2rem;
+
+}
+
+.formulario label{
+  display: block;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 1.2 rem;
+
+  }
+.App {
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario input{
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.Portafolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SobreMi {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 300px;
+}
+
+
+
+footer {
+  text-align: center;
+  justify-content: center;
+}
+
